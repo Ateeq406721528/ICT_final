@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.header{
+    min-height: 75vh;
+    width: 100wh;
+    background-position:center;
+    
+    position: relative;
+
+}
+.main{
+    background-image: url(/ictA/images/gallery/p7.jpg);
+    
+}
+nav{
+    display: flex;
+    padding:4% 3%;
+    justify-content: space-between;
+    align-items: center;}
+ .links{
+        flex: 1;
+        text-align: right;
+    }
+.links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+        
+        }   
+ .links ul li a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+ .text{
+            width: 90%;
+            color: #fff;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align:center;
+           }
+           .text h1 {
+            font-size: 45px;
+            f.ont-style: normal;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text_decoration: overline;
+        
+        }
+        
+        .text p {
+            
+            margin: 30px 0 25px;
+            font-size: 18px;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button{
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #fff;
+            padding:12px 34px;
+            font-size: 20px;
+            background: transparent;
+            position: relative;
+            cursor:pointer;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .button:hover{
+            border:3px solid red;
+            background:red;
+            transition:0.5s;
+        }
+        .hp{
+            margin: 85px;
+            padding-left:350px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+            
+        } 
+        .hp h1 {
+            margin-left:46px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 35px;
+            
+        }
+        .hp p{
+            margin-left:20px;
+            margin-top: 15px;
+        }
+        #parent {
+            border: 5px solid green; 
+            width: 100%; 
+            height: 200px;
+            position:absolute;
+            margin-top: 20px;
+            
+                
+        }
+        .chld{
+            border: 4px solid red; 
+            width:22%;
+            height:100%;
+            display: inline-block;
+            margin-left: 21px;
+            margin: top 0;
+            
+        
+        }
+        .chld c1{
+            background-color: brown;
+
+        }
+        .port{
+            margin: 85px;
+            padding-left:350px;
+            margin-top: 400px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+            
+        } 
+        .port h1 {
+            margin-left:46px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 35px;
+            
+        }
+        .port p{
+            margin-left:55px;
+            margin-top: 15px;
+        }
+        .links ul li ::after{
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #fff;
+            display: block;
+            margin:auto;
+            transition:0.2s;
+        }
+        .links ul li :hover::after{
+                width: 100%;}
